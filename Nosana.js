@@ -58,4 +58,8 @@ Environment="PRIVATE_CONFIG=ignore"
 WantedBy=multi-user.target
 EOF
 exit
-
+-----
+[Install]
+WantedBy=multi-user.target
+EOF
+exit
