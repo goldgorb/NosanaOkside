@@ -59,9 +59,4 @@ WantedBy=multi-user.target
 EOF
 exit
 ---------
-LimitNOFILE=4096
-Environment="PRIVATE_CONFIG=ignore"
-[Install]
-WantedBy=multi-user.target
-EOF
-exit
+
